@@ -1,15 +1,19 @@
 [submodule "sadanghaeng_api"]
 	path = sadanghaeng_api
 	url = git@github.com:cuponthetop/sadanghaeng_api.git
+	branch = master
 [submodule "sadanghaeng_auth"]
 	path = sadanghaeng_auth
 	url = git@github.com:cuponthetop/sadanghaeng_auth.git
+	branch = master
 [submodule "sadanghaeng_web"]
 	path = sadanghaeng_web
 	url = git@github.com:cuponthetop/sadanghaeng_web.git
+	branch = master
 [submodule "sadanghaeng_ios"]
 	path = sadanghaeng_ios
 	url = git@github.com:cuponthetop/sadanghaeng_ios.git
+	branch = master
 [submodule "sadanghaeng_testbed"]
 	path = sadanghaeng_testbed
 	url = git@github.com:cuponthetop/sadanghaeng_testbed.git

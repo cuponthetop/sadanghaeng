@@ -1,0 +1,19 @@
+{
+  "apps" : [{
+    "name"       : "auth",
+    "script"     : "./sadanghaeng_auth/lib/server/server.js",
+    "watch"      : ["config", "lib"],
+    "env"        : {
+        "NODE_ENV": "production"
+    },
+    "exec_mode"  : "fork_mode"
+  }, {
+    "name"       : "api",
+    "script"     : "./sadanghaeng_api/lib/server/server.js",
+    "watch"      : ["config", "lib", "public", "views"],
+    "env"        : {
+        "NODE_ENV": "production"
+    },
+    "exec_mode"  : "fork_mode"
+  }]
+}
